@@ -1,6 +1,7 @@
 <h1>wakandaQCM</h1>
 
 This is a <strong>prototype</strong> sample QCM application.
+You can open it with the DEV branch of Wakanda.
 
 It lacks a lot of features and definitly needs to have a new and better UI/UX ( PR welcomed :) ).
 It is also plenty buggy for instance and has just been made as a "fast prototyped training sample application".
