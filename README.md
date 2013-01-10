@@ -1,5 +1,4 @@
-wakandaQCM
-==========
+<h1>wakandaQCM</h1>
 
 This is a <strong>prototype</strong> sample QCM application.
 
@@ -10,11 +9,9 @@ I would NOT recommand using it in production, though you probably somehow could 
 
 Have fun hacking it!
 
-Getting Started
-========
+<h2>Getting Started</h2>
 
-Creating Questions, Answers, Keywords, and binding all of them together.
-====
+<h3>Creating Questions, Answers, Keywords, and binding all of them together</h3>
 
 Make sure to do them in one go though... it's buggish...
 Also, when you add new entries in the DataGrids, do not forget to blur the rows to make sure the new entries are saved in the DB!!!
@@ -31,8 +28,7 @@ Also, when you add new entries in the DataGrids, do not forget to blur the rows 
 2.0 At that point, I would recommand reloading the page.
 2.1 In the bottom DataGrid, the left one, you will see the answers bound to the question. Notice the first column "is right". Here you should "tick" the right answers for your questions. Again do not forget to blur the rows after ticking, to save the state in the DataBase.
 
-Running a QCM
-====
+<h3>Running a QCM</h3>
 
 Just go to StartQCM page, put any username & email you want (btw there is no real check on the username, might be also worth adding an ID field to the user model, and just make email unique. Whomever wants to have fun with that, feel free to do so and make a Pull Request).
 Click on the start Button, answer your random questions, and see your score.
